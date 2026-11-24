@@ -1,0 +1,6 @@
+{
+  "name": "VOID",
+  "description": "Take Back Your Attention. Restricts Instagram Reels, YouTube Shorts, and Facebook Reels via Android Accessibility Service while preserving core app functionality.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

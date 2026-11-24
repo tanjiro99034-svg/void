@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">VOID</string>
+    <string name="app_tagline">Take Back Your Attention.</string>
+
+    <!-- Accessibility Service Metadata -->
+    <string name="accessibility_service_label">VOID Focus Shield</string>
+    <string name="accessibility_service_description">VOID detects when you open Instagram Reels, YouTube Shorts, or Facebook Reels and redirects you away to protect your attention. Normal feeds, messages, stories, profiles, subscriptions, and regular videos remain accessible. All inspection happens strictly on-device with zero data collection.</string>
+
+    <!-- Header & Navigation -->
+    <string name="cd_void_logo">VOID logo</string>
+    <string name="cd_settings_button">Open settings</string>
+    <string name="cd_back_button">Navigate back</string>
+    <string name="settings_title">SYSTEM SETTINGS</string>
+
+    <!-- Protection Status -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="status_service_required">SERVICE OFF</string>
+    <string name="status_active_subtitle">Monitoring enabled targets in real time</string>
+    <string name="status_inactive_all_off">All restrictions paused</string>
+    <string name="status_inactive_no_targets">Enable at least one app below</string>
+    <string name="status_inactive_service_needed">Accessibility Service required to intercept</string>
+    <string name="master_toggle_title">Master Protection</string>
+    <string name="master_toggle_desc_on">All selected restrictions armed</string>
+    <string name="master_toggle_desc_off">System standing by</string>
+    <string name="enable_service_cta">GRANT ACCESSIBILITY ACCESS</string>
+    <string name="interceptions_label">INTERCEPTIONS</string>
+    <string name="targets_armed_label">TARGETS ARMED</string>
+
+    <!-- Supported Apps -->
+    <string name="section_targets">PROTECTION TARGETS</string>
+    <string name="app_instagram">Instagram</string>
+    <string name="target_instagram">Reels Protection</string>
+    <string name="allowed_instagram">Feed, Stories, Profiles &amp; Messages remain accessible</string>
+
+    <string name="app_youtube">YouTube</string>
+    <string name="target_youtube">Shorts Protection</string>
+    <string name="allowed_youtube">Subscriptions, Search &amp; Regular Videos remain accessible</string>
+
+    <string name="app_facebook">Facebook</string>
+    <string name="target_facebook">Reels Protection</string>
+    <string name="allowed_facebook">Feed, Profiles &amp; Messages remain accessible</string>
+
+    <string name="badge_installed">INSTALLED</string>
+    <string name="badge_not_installed">NOT DETECTED</string>
+    <string name="badge_protected">ARMED</string>
+    <string name="badge_bypassed">UNARMED</string>
+    <string name="blocked_count_format">%1$d blocked</string>
+
+    <!-- Accessibility Disclosure Dialog -->
+    <string name="disclosure_title">ENABLE ACCESSIBILITY SHIELD</string>
+    <string name="disclosure_body">To detect and redirect away from Instagram Reels, YouTube Shorts, and Facebook Reels, VOID requires Android Accessibility Service access.</string>
+    <string name="disclosure_point_1">Reads only active UI element IDs inside Instagram, YouTube, and Facebook.</string>
+    <string name="disclosure_point_2">Redirects navigation when a restricted short-form video screen is entered.</string>
+    <string name="disclosure_point_3">Leaves buttons intact where Android prevents modifying third-party apps; never collects or transmits personal data.</string>
+    <string name="disclosure_confirm">OPEN ACCESSIBILITY SETTINGS</string>
+    <string name="disclosure_cancel">NOT NOW</string>
+
+    <!-- Interception Toast -->
+    <string name="intercept_toast_format">VOID intercepted %1$s</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_service_section">ACCESSIBILITY ENGINE</string>
+    <string name="settings_service_connected">CONNECTED &amp; OPERATIONAL</string>
+    <string name="settings_service_disconnected">DISCONNECTED — TAP TO CONFIGURE</string>
+    <string name="settings_open_android_accessibility">OPEN ANDROID ACCESSIBILITY</string>
+
+    <string name="settings_behavior_section">INTERCEPTION BEHAVIOR</string>
+    <string name="redirect_mode_title">Redirect Action</string>
+    <string name="redirect_mode_back_title">Exit Restricted View (Back)</string>
+    <string name="redirect_mode_back_desc">Navigates immediately back to the feed or previous screen</string>
+    <string name="redirect_mode_home_title">Exit to Device Home</string>
+    <string name="redirect_mode_home_desc">Returns directly to your launcher home screen</string>
+    <string name="show_notice_title">Interception Notice</string>
+    <string name="show_notice_desc">Show a brief alert when a distraction is intercepted</string>
+
+    <string name="settings_telemetry_section">TELEMETRY</string>
+    <string name="reset_counters_title">Reset Interception Counters</string>
+    <string name="reset_counters_desc">Clear recorded block counts for all apps</string>
+    <string name="reset_counters_button">RESET</string>
+
+    <string name="settings_scope_section">BOUNDARIES &amp; TRANSPARENCY</string>
+    <string name="settings_scope_title">Access Restriction, Not UI Modification</string>
+    <string name="settings_scope_body">Android does not permit external apps to strip or hide buttons inside third-party applications. VOID prioritizes reliable access restriction by detecting Reels and Shorts views the moment they open and redirecting you back—preserving normal feeds, stories, messages, profiles, subscriptions, search, and regular videos.</string>
+</resources>
